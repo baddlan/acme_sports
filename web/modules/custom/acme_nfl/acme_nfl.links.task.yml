@@ -1,0 +1,4 @@
+acme_nfl.settings:
+  base_route: acme_nfl.settings
+  route_name: acme_nfl.settings
+  title: 'Settings'

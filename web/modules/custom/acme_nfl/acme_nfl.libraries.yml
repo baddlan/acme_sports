@@ -1,0 +1,14 @@
+listJs:
+  js:
+    //cdnjs.cloudflare.com/ajax/libs/list.js/2.3.1/list.min.js:
+      type: external
+      minified: true
+
+teams:
+  js:
+    js/acme_nfl_teams.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - acme_nfl/listJs
+

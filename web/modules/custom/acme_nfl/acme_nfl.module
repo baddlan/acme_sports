@@ -1,0 +1,45 @@
+<?php
+
+/**
+ * @file
+ * Contains acme_nfl.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function acme_nfl_help($route_name, RouteMatchInterface $route_match) {
+    switch ($route_name) {
+        // Main module help for the acme_nfl module.
+        case 'help.page.acme_nfl':
+            $output = '';
+            $output .= '<h3>' . t('About') . '</h3>';
+            $output .= '<p>' . t(
+                    'Integration of NFL content and widgets.'
+                ) . '</p>';
+            return $output;
+
+        default:
+    }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function acme_nfl_theme() {
+    return [
+        'nfl_teams_block' => [
+            'variables' => [
+                'data' => [
+                    'teams' => NULL,
+                    'divisions' => NULL,
+                    'columns' => NULL,
+                ]
+            ],
+            'render element' => 'children',
+        ],
+    ];
+}
+

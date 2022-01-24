@@ -1,0 +1,17 @@
+#acme-nfl-teams-list {
+  .list-title {
+    font-size: $h5-font-size;
+  }
+
+  ul.list {
+    li {
+      &:nth-child(even) {
+        background-color: #fbfcfe;
+      }
+
+      &:hover {
+        background-color: #ebf1f6;
+      }
+    }
+  }
+}

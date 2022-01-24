@@ -1,0 +1,10 @@
+acme_nfl.settings:
+  path: '/admin/config/acme-nfl/settings'
+  defaults:
+    _form: '\Drupal\acme_nfl\Form\SettingsForm'
+    _title: 'ACME NFL Settings Form'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE
+

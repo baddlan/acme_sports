@@ -1,0 +1,6 @@
+services:
+  acme_nfl.teams_repository:
+    class: Drupal\acme_nfl\Repository\Teams
+    arguments:
+      - '@config.factory'
+      - '@http_client'

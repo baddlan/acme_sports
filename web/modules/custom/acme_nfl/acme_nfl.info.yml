@@ -1,0 +1,6 @@
+name: 'ACME Sports NFL'
+type: module
+description: 'Integration of NFL content and widgets'
+core: 8.x
+core_version_requirement: ^8 || ^9
+package: 'ACME'

@@ -1,0 +1,6 @@
+acme_nfl.settings:
+  title: 'ACME NFL'
+  parent: system.admin_config_system
+  description: 'ACME NFL settings form'
+  route_name: acme_nfl.settings
+  weight: 99

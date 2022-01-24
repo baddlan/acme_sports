@@ -1,0 +1,46 @@
+
+{% macro teamListItem(team) %}
+    <li class="list-group-item" itemscope itemtype="https://schema.org/SportsTeam">
+        <div class="fullname" itemprop="name">{{ team.display_name|e }} {{ team.nickname|e }}</div>
+        <div class="division hidden" aria-hidden="true">{{ team.division|e }}</div>
+    </li>
+{% endmacro %}
+
+<form class="list-filters row mt-4 mb-5">
+    <div class="col-md-6 col-lg-3">
+        <input id="acme-nfl-teams-name-search"
+               class="form-control fuzzy-search"
+               type="text"
+               placeholder="{{ 'Find Team'|t }}"
+               aria-label="{{ 'Find Team'|t }}" />
+    </div>
+
+    {% if data.divisions is not empty %}
+    <div class="col-md-6 col-lg-3">
+        <select id="acme-nfl-teams-division-select" class="form-select" aria-label="{{ 'Select Division'|t }}">
+            <option value="" selected>{{ 'Select Division'|t }}</option>
+
+            {% for division in data.divisions %}
+                <option value="{{ division|e }}">{{ division|e }}</option>
+            {% endfor %}
+        </select>
+    </div>
+    {% endif %}
+</form>
+
+<div id="acme-nfl-teams-list">
+    <div class="row">
+        {% if data.teams is not empty %}
+            {% for conferenceName, conference in data.teams %}
+                <div class="list-wrapper col-lg-6">
+                    <h3 class="list-title">{{ conferenceName }}</h3>
+                    <ul class="list list-group list-group-flush">
+                    {% for team in conference %}
+                        {{ _self.teamListItem(team) }}
+                    {% endfor %}
+                    </ul>
+                </div>
+            {% endfor %}
+        {% endif %}
+    </div>
+</div>

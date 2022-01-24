@@ -1,0 +1,13 @@
+{
+    "name": "acme_nfl",
+    "type": "drupal-module",
+    "description": "Integration of NFL content and widgets",
+    "keywords": [
+    ],
+    "homepage": "https://www.acme.org/project/acme_nfl",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.acme.org/project/issues/acme_nfl",
+        "source": "http://cgit.acme.org/acme_nfl"
+    }
+}
