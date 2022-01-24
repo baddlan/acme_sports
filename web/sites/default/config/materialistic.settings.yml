@@ -1,0 +1,8 @@
+_core:
+  default_config_hash: '-bw563cVDAeUQThWL7jRpkx6IVGPpV5e9ULKUykUiqs'
+navbar_fixed: false
+navbar_style: standard
+drawer_style: modal
+drawer_height: full
+footer_style: standard
+messages_fixed: false

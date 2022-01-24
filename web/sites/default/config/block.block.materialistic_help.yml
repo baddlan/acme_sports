@@ -1,0 +1,22 @@
+uuid: 2cdc191d-1bc9-492e-9164-62136d7c9838
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - materialistic
+_core:
+  default_config_hash: YXE3Ajb6fBAyr7KH-ov0ImLBwkgjwy1x3NP4IbuCIJ8
+id: materialistic_help
+theme: materialistic
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

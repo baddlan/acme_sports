@@ -1,0 +1,20 @@
+uuid: 5e97492d-3e7d-4560-a745-7aa47bff7d68
+langcode: en
+status: true
+dependencies:
+  module:
+    - acme_nfl
+  theme:
+    - acme
+id: nflteams
+theme: acme
+region: content
+weight: 0
+provider: null
+plugin: nfl_teams_block
+settings:
+  id: nfl_teams_block
+  label: 'NFL Teams'
+  label_display: '0'
+  provider: acme_nfl
+visibility: {  }

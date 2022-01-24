@@ -1,0 +1,23 @@
+uuid: b440fa9a-3ccc-44c6-8b50-f246aff87d1f
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - material_base_mdc
+_core:
+  default_config_hash: 3QHOfJ27HDBdbRNZKqHFZyLYlDG76yoocSbWqQJvxXY
+id: material_base_mdc_search
+theme: material_base_mdc
+region: sidebar_first
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  label_display: visible
+  provider: search
+  page_id: node_search
+visibility: {  }

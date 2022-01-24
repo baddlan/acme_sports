@@ -1,0 +1,27 @@
+uuid: 8e057840-906d-4a27-bb08-a5b30564f965
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - materialistic
+_core:
+  default_config_hash: q8OzwCryMj4RyGaLcIred9TT5Ptr1Iqjd6OI8I6UAlY
+id: materialistic_footer
+theme: materialistic
+region: footer
+weight: -5
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Footer menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

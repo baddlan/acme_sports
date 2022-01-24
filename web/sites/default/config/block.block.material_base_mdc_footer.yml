@@ -1,0 +1,27 @@
+uuid: 66300974-ced3-418d-97ba-a618c2b99d3f
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - material_base_mdc
+_core:
+  default_config_hash: 24LrYYgirB69xj8I54CfzeFPt-NKd-28tp1k9CVhV-U
+id: material_base_mdc_footer
+theme: material_base_mdc
+region: footer
+weight: -5
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Footer menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

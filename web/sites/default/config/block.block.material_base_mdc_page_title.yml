@@ -1,0 +1,20 @@
+uuid: 2a830e26-1893-4575-bc13-286e643524fe
+langcode: en
+status: true
+dependencies:
+  theme:
+    - material_base_mdc
+_core:
+  default_config_hash: T7PRPvKpXinJF8XiBF4Ld_ksDkfYhF2nY69jXcmfkP4
+id: material_base_mdc_page_title
+theme: material_base_mdc
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

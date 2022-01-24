@@ -1,0 +1,27 @@
+uuid: 74c9ae25-11a6-478c-ad3a-f765d64e10c9
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - stark
+_core:
+  default_config_hash: BY0I3jGENWjRuUG77_qLoEpD3Sl_u2IMz_51NERnycg
+id: stark_footer
+theme: stark
+region: footer
+weight: -5
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Footer menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

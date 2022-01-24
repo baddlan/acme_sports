@@ -1,0 +1,22 @@
+uuid: 5876fe92-796b-4b8d-8241-36d4829ed1d9
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - material_base_mdc
+_core:
+  default_config_hash: nXYtSHM_l8fCSKN7bEgxQZNKMVQnIh1NQ0gHMZQOh1o
+id: material_base_mdc_content
+theme: material_base_mdc
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

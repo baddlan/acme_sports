@@ -1,0 +1,22 @@
+uuid: fbb2d263-4475-4b0a-b8a3-9af1ba42969d
+langcode: en
+status: true
+dependencies:
+  theme:
+    - materialistic
+_core:
+  default_config_hash: REMFkmS8oPfxZsQnmClmrs8NzM3vWV6nOaGkJbWv3nw
+id: materialistic_local_tasks
+theme: materialistic
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }
