@@ -1,0 +1,23 @@
+uuid: 4104720c-84df-4ef7-80b6-46c5d76dbe99
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - material_base
+_core:
+  default_config_hash: s8SQQ-Bwp77l6I29bp5RgM64gVdRAFVIbXo09LeNccA
+id: material_base_search
+theme: material_base
+region: sidebar_first
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  label_display: visible
+  provider: search
+  page_id: node_search
+visibility: {  }

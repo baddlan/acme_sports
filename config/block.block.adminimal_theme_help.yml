@@ -1,0 +1,22 @@
+uuid: e6a61dd1-db2a-4c7c-82bd-c16e280e809b
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - adminimal_theme
+_core:
+  default_config_hash: PfozGAnWQRNy00G6KEnZjIu9b2lGuWg-j-GT_-Ejglc
+id: adminimal_theme_help
+theme: adminimal_theme
+region: help
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

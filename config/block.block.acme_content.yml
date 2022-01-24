@@ -1,0 +1,22 @@
+uuid: 1f949c9d-8722-4ede-9dd1-f166accc3d1e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - acme
+_core:
+  default_config_hash: kigu8pTxXt1qGR2NJ5HHdC4G2G1wsDrIjLPKBT5wUBc
+id: acme_content
+theme: acme
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

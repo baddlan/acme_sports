@@ -1,0 +1,27 @@
+uuid: 48f705c4-6895-447a-9230-3b55145055b8
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - material_base_mdc
+_core:
+  default_config_hash: H7u3wBSCbfEsaSc1f6JoXWL026ASup-qBvEbd61gaEY
+id: material_base_mdc_account_menu
+theme: material_base_mdc
+region: navbar
+weight: -4
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

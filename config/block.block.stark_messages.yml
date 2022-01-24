@@ -1,0 +1,22 @@
+uuid: cf06c808-d469-4df6-a7f8-43c92ef47fae
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - stark
+_core:
+  default_config_hash: VBCsu3TNhjV8ub1A7SeAP7yRX4uqpZTL7yR1Qot5zRA
+id: stark_messages
+theme: stark
+region: sidebar_first
+weight: -6
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

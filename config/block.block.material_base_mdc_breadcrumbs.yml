@@ -1,0 +1,22 @@
+uuid: 4f7d7058-1e91-4d3d-bbe9-1e13c529e207
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - material_base_mdc
+_core:
+  default_config_hash: IhnSsK-_sHAdKxm7R6R7owm7xmwE7f0K1KM9NTv2EWQ
+id: material_base_mdc_breadcrumbs
+theme: material_base_mdc
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }
