@@ -1,5 +1,0 @@
-_core:
-  default_config_hash: li0tbaNQi9xVFKxizkJ2Mphsx_rouY5LXVTkxQL2W1o
-langcode: en
-nfl_teams_api_endpoint: 'http://delivery.chalk247.com/team_list/NFL.JSON?api_key=74db8efa2a6db279393b433d97c2bc843f8e32b0'
-nfl_teams_request_hash: a4e87214bbbc9fa71af4270c1bb5aa6a
