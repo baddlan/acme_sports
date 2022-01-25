@@ -22,7 +22,6 @@
         "drupal/bootstrap_sass": "^5.0",
         "drupal/core-composer-scaffold": "^9.2",
         "drupal/core-recommended": "^9.2",
-        "drupal/material_base": "^2.0@beta",
         "drush/drush": "^10",
         "pantheon-systems/drupal-integrations": "^9",
         "pantheon-upstreams/upstream-configuration": "self.version"

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "438c876100c10e522135e6e728885473",
+    "content-hash": "a97af733c1b1f263e1b94fb216bbb4c5",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1957,60 +1957,6 @@
             "time": "2022-01-19T00:13:54+00:00"
         },
         {
-            "name": "drupal/material_base",
-            "version": "2.0.0-beta3",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/material_base.git",
-                "reference": "8.x-2.0-beta3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/material_base-8.x-2.0-beta3.zip",
-                "reference": "8.x-2.0-beta3",
-                "shasum": "7e2f507d848e8ffe734445d547ea759c229827eb"
-            },
-            "require": {
-                "drupal/core": "^8 || ^9"
-            },
-            "type": "drupal-theme",
-            "extra": {
-                "drupal": {
-                    "version": "8.x-2.0-beta3",
-                    "datestamp": "1637670958",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Project has not opted into security advisory coverage!"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Andrey Yurtaev (iamdroid)",
-                    "homepage": "https://www.drupal.org/u/iamdroid",
-                    "role": "Maintainer"
-                },
-                {
-                    "name": "adubovskoy",
-                    "homepage": "https://www.drupal.org/user/168427"
-                },
-                {
-                    "name": "iamdroid",
-                    "homepage": "https://www.drupal.org/user/892728"
-                }
-            ],
-            "description": "Base theme inspirited by Material Design concept.",
-            "homepage": "https://www.drupal.org/project/material_base",
-            "support": {
-                "source": "https://git.drupalcode.org/project/material_base",
-                "issues": "https://www.drupal.org/project/issues/material_base"
-            }
-        },
-        {
             "name": "drush/drush",
             "version": "10.6.2",
             "source": {
@@ -3203,7 +3149,7 @@
         },
         {
             "name": "pantheon-upstreams/upstream-configuration",
-            "version": "dev-develop",
+            "version": "dev-master",
             "dist": {
                 "type": "path",
                 "url": "upstream-configuration",
@@ -10332,7 +10278,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "drupal/material_base": 10,
         "pantheon-upstreams/upstream-configuration": 20
     },
     "prefer-stable": true,
